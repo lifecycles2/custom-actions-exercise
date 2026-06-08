@@ -1,0 +1,9 @@
+name: 'Deploy to AWS S3'
+description: 'Deploy a static website via AWS S3.'
+# inputs:
+# outputs:
+runs:
+  using: 'node24'
+  # pre:
+  main: 'main.js'
+  # post:
